@@ -1,9 +1,9 @@
 #ifndef LINKED
-#define LNKED
+#define LINKED
 
-#include <stddef.h>
-#include <stdlib>
-#include <string>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 /**
  * struct list_s - singly linked list
@@ -26,4 +26,4 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-endif /*LINKED*/
+#endif
